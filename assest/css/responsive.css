@@ -1,0 +1,209 @@
+/*******************************
+	All Responsive Code
+*******************************/
+
+@media screen and (max-width: 1199px){
+	.main-menu{ background: linear-gradient(to right, rgb(144,62,255) 20%, rgba(75,31,255,1) 80%);}
+	.header-car{
+		display: none;
+	}
+	.header-section{
+		background-image: none;
+	}
+	.header-link{
+		display: block;
+	}
+	.Reviews-single-item{margin: 20px 0;}
+
+	.owl-nav {
+		bottom: 0%;
+		left: 50%;
+		margin-left: -50px;
+	}
+}
+
+@media screen and (max-width: 991px) {
+	.pricing-text{
+		margin-top: 35px;
+	}
+	.main-menu{ background: linear-gradient(to right, rgb(144,62,255) 20%, rgba(75,31,255,1) 80%);}
+	.header-section{padding: 100px 0 60px;}
+
+	h1 {
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 42px;
+		line-height: 52px;
+	  }
+	  
+	  h2 {
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 28px;
+		line-height: 38px;
+	  }
+	  
+	  h3 {
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 32px;
+		line-height: 42px;
+	  }
+	  
+	  h4 {
+		font-family: "Josefin Sans", sans-serif;
+		font-size: 24px;
+		line-height: 34px;
+	  }
+	  .faq-left{
+		  display: none;
+	  }
+
+	  .footer-section{
+		  background-image: none;
+	  }
+
+	  .loan-img{display: none;}
+
+	  .you-loan-text{
+		  text-align: center;
+	  }
+	  .review-content .head{
+		  font-size: 42px;
+		  line-height: 52px;
+	  }
+	  .step{
+		  background-size: cover;
+		  text-align: center;
+		  padding: 5px;
+	  }
+	  .footer-social-item{
+		  flex-direction: column-reverse;
+	  }
+}
+
+
+@media screen and (max-width: 768px) {
+	.faq-text .text{padding-bottom: 0px;}
+	.accordion-body{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.footer-social-left,
+	.footer-social-link{
+		text-align: center;
+	}
+	.Reviews-single-item{
+		min-height: 300px;
+	}
+	.counter-section{
+		padding: 0 0  60px 0;
+	}
+
+	.counter-text .counter-head,
+	.counter-text .counter{
+		font-size: 24px;
+		line-height: 34px;
+	}
+	.pricing-content-text p{
+		padding-top: 15px;
+	}
+	.pricing-content-text span{
+		padding-top: 10px;
+	}
+	.justify-content-between{
+		justify-content: center !important;
+	}
+	.footer-area{
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.range-box input::before{
+		left: 70%;
+	}
+	.amount{
+		font-size: 42px;
+		line-height: 52px;
+	}
+
+	.pricing-item .pricing-list:nth-child(2), .pricing-item .pricing-list:nth-child(3){
+		padding-top: 30px;
+	}
+	.accordion .accordion-item .accordion-header button.accordion-button{
+		padding: 20px 30px 20px 15px;
+	}
+	.accordion-button::after{
+		right: 24px;
+	}
+	.accordion .accordion-item .accordion-header button.accordion-button:before{
+		right: 17px;
+	}
+	.footer-text li{
+		padding-top: 0;
+	}
+	.footer-area .logo{
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+	.footer-content-text .text{
+		
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+	.footer-lets-section,
+	.footer-section{
+		text-align: center;
+	}
+	.calculator-section {
+		padding: 60px 0 300px;
+	}
+
+}
+
+@media screen and (max-width: 420px) {
+	.header-link{
+		padding-top: 85px;
+	}
+	.pricing-box{
+		display: block;
+		text-align: center;
+	}
+	.select-items-1{
+		display: flex;
+	}
+	.pricing-right{
+		margin-top: 20px;
+	}
+	a.magnafic-btn{
+		position: absolute;
+		left: 50%;
+		margin-left: -50px;
+		margin-top: -85px;
+	}
+	.calculator-box{padding: 0;}
+	.pricing-item{
+		padding: 15px;
+	}
+	.pricing-text{
+		padding:60px 5px 35px 5px;
+	}
+	p, span{
+		font-size: 14px;
+		line-height: 24px;
+	}
+	.nice-select{
+		float: inherit;
+	}
+	.pricing-right .nice-select{
+		margin: auto;
+	}
+
+
+}
+
+@media screen and (max-width: 396px) {
+
+}
+
+/*******************************
+	All Responsive Code end
+*******************************/
